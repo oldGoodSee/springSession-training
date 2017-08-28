@@ -10,25 +10,23 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/../pac-web/src/main/resources/conf" relative="WEB-INF/classes/conf" />
-          <root url="file://$MODULE_DIR$/../pac-web/src/main/webapp" relative="/" />
+          <root url="file://$MODULE_DIR$/src/main/resources/conf" relative="WEB-INF/classes/conf" />
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+          <root url="file://$MODULE_DIR$/src/main/resources/mapper" relative="WEB-INF/classes/mapper" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../pac-web/src/main/java" />
-          <root url="file://$MODULE_DIR$/../pac-web/src/main/resources" />
-        </sourceRoots>
+        <sourceRoots />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/../pac-web/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../pac-web/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../pac-web">
-      <sourceFolder url="file://$MODULE_DIR$/../pac-web/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../pac-web/src/main/resources" type="java-resource" />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../pac-web/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../pac-web/src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../pac-web/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
